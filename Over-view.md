@@ -3,7 +3,7 @@ A small, reproducible RAG system using LangChain, FAISS, and Gemini models that 
 
 **Problem :** Large language models can give fluent answers but often hallucinate or miss domain-specific facts when they don't have access to the user's documents. Retrieval-Augmented Generation (RAG) mitigates this by retrieving relevant document passages and conditioning generation on them.
 
-**Approach :** We build a reproducible pipeline that ingests documents, creates embeddings, stores vectors in FAISS/ChromaDB, retrieves context, and compares two systems: (A) baseline LLM answering without retrieval, (B) RAG pipeline that provides retrieved context to the LLM. We evaluate on a small, curated QA set from the same documents using automatic metrics and a hallucination check.
+**Approach :** We build a reproducible pipeline that ingests documents, creates embeddings, stores vectors in FAISS, retrieves context, and compares two systems: (A) baseline LLM answering without retrieval, (B) RAG pipeline that provides retrieved context to the LLM. We evaluate on a small, curated QA set from the same documents using automatic metrics and a hallucination check.
 
 **Contributions :**
 
