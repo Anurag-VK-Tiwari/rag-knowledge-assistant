@@ -1,0 +1,15 @@
+{"id":"q1","question":"What does RAG stand for in NLP?","answer":"Retrieval-Augmented Generation"}
+{"id":"q2","question":"What are the two main components of RAG?","answer":"A retriever that finds relevant documents and a generator that produces answers conditioned on them."}
+{"id":"q3","question":"Which model architecture introduced the self-attention mechanism?","answer":"The Transformer"}
+{"id":"q4","question":"In which year was the Transformer paper 'Attention Is All You Need' published?","answer":"2017"}
+{"id":"q5","question":"What problem does RAG aim to solve in language models?","answer":"It reduces hallucinations and improves factual accuracy by grounding responses in retrieved documents."}
+{"id":"q6","question":"What is the role of embeddings in RAG?","answer":"Embeddings represent text as vectors so that relevant documents can be retrieved from a vector database."}
+{"id":"q7","question":"Name one commonly used vector database for RAG systems.","answer":"FAISS"}
+{"id":"q8","question":"What is a common chunk size when splitting documents for RAG?","answer":"Around 500 tokens or characters, often with some overlap."}
+{"id":"q9","question":"What happens if the answer is not present in retrieved context in a well-designed RAG system?","answer":"The model should respond with 'I don't know' instead of hallucinating."}
+{"id":"q10","question":"Which Google LLM can be used as the generator in a RAG pipeline?","answer":"Gemini"}
+{"id":"q11","question":"Which OpenAI model is often used as a baseline generator in RAG experiments?","answer":"GPT-3.5-turbo"}
+{"id":"q12","question":"What metric measures the overlap between predicted and reference answers?","answer":"ROUGE-L"}
+{"id":"q13","question":"What is a simple proxy metric to estimate hallucination in RAG experiments?","answer":"The fraction of predicted tokens not found in retrieved context."}
+{"id":"q14","question":"Why is document chunking necessary before creating embeddings?","answer":"Because embeddings have a maximum length limit and smaller chunks improve retrieval precision."}
+{"id":"q15","question":"What instruction is usually included in a RAG prompt to reduce hallucination?","answer":"Answer using only the provided context and say 'I don’t know' if the answer is not in context."}

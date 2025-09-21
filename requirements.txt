@@ -1,0 +1,13 @@
+langchain>=0.2.0
+langchain-huggingface
+faiss-cpu
+pypdf
+tqdm
+sentence_transformers
+transformers
+openai
+google-generativeai
+datasets
+numpy
+scikit-learn
+rouge-score
