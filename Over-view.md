@@ -12,7 +12,7 @@ Side-by-side comparison of baseline vs RAG with quantitative metrics and short q
 A README that doubles as a mini research paper describing experiments, results, and conclusions.
 
 **Keywords :**
-LLMs, RAG, embeddings, vector DB, FAISS, ChromaDB, LangChain, OpenAI, HuggingFace, evaluation, hallucination
+LLMs, RAG, embeddings, vector DB, FAISS, LangChain, Gemini, evaluation, hallucination
 
 **Tech Stack :**
 Python 3.10+
