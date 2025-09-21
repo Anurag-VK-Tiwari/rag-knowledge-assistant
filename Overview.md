@@ -1,5 +1,5 @@
 # Rag-knowledge-assistant
-A small, reproducible RAG system using LangChain, FAISS/ChromaDB, and OpenAI/Hugging Face models that compares baseline LLM answers to RAG-augmented answers and reports evaluation metrics (accuracy, hallucination reduction).
+A small, reproducible RAG system using LangChain, FAISS, and Gemini models that compares baseline LLM answers to RAG-augmented answers and reports evaluation metrics (accuracy, hallucination reduction).
 
 **Problem :** Large language models can give fluent answers but often hallucinate or miss domain-specific facts when they don't have access to the user's documents. Retrieval-Augmented Generation (RAG) mitigates this by retrieving relevant document passages and conditioning generation on them.
 
@@ -17,8 +17,8 @@ LLMs, RAG, embeddings, vector DB, FAISS, ChromaDB, LangChain, OpenAI, HuggingFac
 **Tech Stack :**
 Python 3.10+
 LangChain (>=0.0.x)
-OpenAI (or Hugging Face pipelines for local LLMs)
-Embedding model: OpenAI embeddings or sentence-transformers
-Vector DB: FAISS (local) and ChromaDB (optional)
+Gemini LLMs
+Embedding model: sentence-transformers
+Vector DB: FAISS 
 Evaluation: scikit-learn, rouge/bert-score (optional), custom hallucination checks
 Optional: Docker for containerization, GitHub Actions for CI
